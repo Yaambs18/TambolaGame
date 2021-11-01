@@ -2,10 +2,11 @@ package com.tambolagame;
 
 import java.util.HashMap;
 import java.util.Iterator;
+import java.util.Map;
 
 class Checker {
 
-    void checker (HashMap<Integer, Boolean> playersTicket, String player,HashMap<Integer,Boolean> board){
+    void checker (Map<Integer, Boolean> playersTicket, String player, Map<Integer,Boolean> board){
         Iterator<Integer> ticketKeys = playersTicket.keySet().iterator();
 
         int count = 0;

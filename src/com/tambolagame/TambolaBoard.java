@@ -2,10 +2,11 @@ package com.tambolagame;
 
 import java.util.HashMap;
 import java.util.Iterator;
+import java.util.Map;
 
 public class TambolaBoard implements Runnable{
 
-    static HashMap<Integer, Boolean> board = new HashMap<>();
+    static Map<Integer, Boolean> board = new HashMap<>();
 
     TambolaBoard(){
         int number;
